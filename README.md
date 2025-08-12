@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TecnoHubFrontend
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.1.
@@ -57,3 +58,7 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# TecnoHub-Frontend
+Frontend de TecnoHub, un e-commerce de electrónica desarrollado con Angular. Este proyecto se enfoca en la construcción de una interfaz de usuario moderna y responsiva, utilizando Angular, TypeScript y TailwindCSS para un diseño atractivo y modular. El objetivo final es integrar este frontend con un backend en Node.js
+>>>>>>> 6ccfb765f96b7706de957d983a99075e2acfc680
