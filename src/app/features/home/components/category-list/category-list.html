@@ -1,0 +1,16 @@
+<section class="py-12 bg-gray-100 dark:bg-gray-800">
+  <div class="max-w-screen-xl mx-auto px-4">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl font-bold text-gray-900 dark:text-white">Explora nuestras categorías</h2>
+      <p class="mt-4 text-gray-600 dark:text-gray-400">Encuentra el producto perfecto en la categoría que buscas.</p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      @for (category of categories; track category.id) {
+        <app-category-card [category]="category"></app-category-card>
+      }
+    </div>
+  </div>
+</section>
+
+
